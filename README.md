@@ -78,9 +78,6 @@ Capture these and drop them into `docs/screenshots/` using the exact filenames b
 |---|---|---|
 | Hero / Timer (desktop) | `screenshots/hero-desktop.png` | Full hero section with the timer card, browser at ~1440px wide |
 
-```text
-docs/screenshots/hero-desktop.png
-```
 
 ## 🔮 Future Improvements
 
