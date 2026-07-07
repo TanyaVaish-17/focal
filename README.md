@@ -1,8 +1,8 @@
 # 🎯 Focal — Responsive Focus Timer
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-22c55e?style=for-the-badge)](https://your-vercel-link.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-22c55e?style=for-the-badge)](https://focal-timer.vercel.app/)
 
-A distraction-free focus timer landing page, built with plain HTML5, CSS3, and vanilla JavaScript — no frameworks, no build step.
+A distraction-free focus timer landing page, built with plain HTML5, CSS3, and vanilla JavaScript with no frameworks, no build step.
 
 > **Project 1 — Responsive Frontend Interface**, DecodeLabs Full Stack Internship (Batch 2026)
 
@@ -10,26 +10,24 @@ A distraction-free focus timer landing page, built with plain HTML5, CSS3, and v
 
 ## 📖 Overview
 
-Focal is a single-page site where the hero itself is a working product: a live countdown ring that runs real focus/break cycles, not a screenshot standing in for one. The rest of the page — how it works, features, FAQ — supports that one job.
+Focal is a single-page site where the hero itself is a working product: a live countdown ring that runs real focus/break cycles, not a screenshot standing in for one. 
 
 ---
 
 ## 🌐 Live Demo
 
-🔗 **Deployed Website:** https://your-vercel-link.vercel.app
-
-> Replace the above URL with your deployed Vercel/Netlify/GitHub Pages link.
+🔗 **Deployed Website:** https://focal-timer.vercel.app/
 
 ---
 
 ## ✨ Features
 
-- ⏱️ **Live focus timer** — 15 / 25 / 50-minute sessions with an animated progress ring
-- 🔁 **Automatic breaks** — switches to a 5-minute break after each session, 15 minutes after every fourth
-- 📊 **Daily session count** — tracked locally per day, no account required
-- 🌗 **Light / dark mode** — toggle in the header, remembered on return visits
-- 📱 **Mobile-first responsive layout** — single column on phones, expands at tablet (768px) and desktop (1024px) breakpoints
-- ♿ **Accessible by default** — semantic landmarks, visible focus states, `prefers-reduced-motion` support, skip link
+- ⏱️ **Live focus timer** - 15 / 25 / 50-minute sessions with an animated progress ring
+- 🔁 **Automatic breaks** - switches to a 5-minute break after each session, 15 minutes after every fourth
+- 📊 **Daily session count** - tracked locally per day, no account required
+- 🌗 **Light / dark mode** - toggle in the header, remembered on return visits
+- 📱 **Mobile-first responsive layout** - single column on phones, expands at tablet (768px) and desktop (1024px) breakpoints
+- ♿ **Accessible by default** - semantic landmarks, visible focus states, `prefers-reduced-motion` support, skip link
 - 🧩 **Accordion FAQ** and animated **hamburger navigation** with no external libraries
 
 ---
@@ -50,9 +48,7 @@ Focal is a single-page site where the hero itself is a working product: a live c
 
 ### Hero / Timer (Desktop)
 
-![Hero Screenshot](docs/screenshots/hero-desktop.png)
-
-> Save the screenshot as `docs/screenshots/hero-desktop.png`.
+![Hero Screenshot](screenshots/hero-desktop.png)
 
 ---
 
@@ -65,9 +61,8 @@ focal/
 │   └── style.css
 ├── js/
 │   └── script.js
-├── docs/
-│   └── screenshots/
-│       └── hero-desktop.png
+├── screenshots/
+│   └── hero-desktop.png
 └── README.md
 ```
 
@@ -88,12 +83,6 @@ cd focal
 open index.html          # macOS
 # or double-click index.html
 
-# (Optional) Run a local server
-npx serve .
-
-# or
-
-python3 -m http.server 5500
 ```
 
 ---
